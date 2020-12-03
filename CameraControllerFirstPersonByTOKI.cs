@@ -18,9 +18,9 @@ public class CameraControllerFirstPersonByTOKI : MonoBehaviour
         Transform myTransform = this.transform;
 
         Vector3 localPos = myTransform.localPosition;
-        localPos.x = firstPersonOffset.x;
-        localPos.y = firstPersonOffset.y;
-        localPos.z = firstPersonOffset.z;
+        localPos.x = firstPersonOffset.x * (-1);
+        localPos.y = firstPersonOffset.y * (-1);
+        localPos.z = firstPersonOffset.z * (-1);
         myTransform.localPosition = localPos;
     }
 }
