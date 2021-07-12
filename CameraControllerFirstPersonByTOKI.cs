@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CameraControllerFirstPersonByTOKI : MonoBehaviour
 {
-    [SerializeField] Vector3 firstPersonOffset = Vector3.zero;
+    [SerializeField]
+    Vector3 firstPersonOffset = Vector3.zero;
 
     // Start is called before the first frame update
     void Start()
